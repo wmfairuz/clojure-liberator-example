@@ -4,7 +4,9 @@ A basic webapp using Liberator library
 ## Usage
 
 => (use 'ring.adapter.jetty)
+
 => (use 'clojure-liberator-example.core.core)
+
 => (run-jetty app-routes {:port 3000})
 
 ## License
